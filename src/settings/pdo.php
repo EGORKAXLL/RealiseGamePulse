@@ -5,7 +5,7 @@ function getConnection() {
     $host = getenv('DB_HOST') ?: 'db';
     $dbname = getenv('DB_NAME') ?: 'gamepulse';
     $user = getenv('DB_USER') ?: 'root';
-    $password = getenv('DB_PASS') ?: 'root';
+    $password = getenv('DB_PASS') ?: '';
     
     // Для OpenPanel пароль пустой, для Docker пароль root (уже задан выше)
     if ($host === '127.0.1.31') {
