@@ -20,7 +20,7 @@ Docker: Docker Desktop 4.0+
 
 git clone https://github.com/EGORKAXLL/RealiseGamePulse
 
-cd "C:\Users\user\RealiseGamePulse"
+cd "C:\Users\user\RealiseGamePulse\gamepulse.local"
 
 docker-compose up -d
 
