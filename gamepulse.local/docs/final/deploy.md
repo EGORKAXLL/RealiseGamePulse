@@ -18,7 +18,7 @@ Docker: Docker Desktop 4.0+
 
 Выполнить команды:
 
-git clone https://github.com/your-username/gamepulse.git
+git clone https://github.com/EGORKAXLL/RealiseGamePulse
 
 cd gamepulse
 
